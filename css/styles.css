@@ -1,3 +1,20 @@
+body{
+  background-color: purple;
+color:white;
+  }
 h1{
   color:purple
+}
+em{
+  font-weight: bold;
+  color: black;
+}
+.summary{
+  border:4px purple;
+  background-color: purple;
+  color:white;
+}
+a{
+  color:white;
+  
 }
