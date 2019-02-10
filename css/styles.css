@@ -51,8 +51,9 @@ ul {
 }
 
 #center {
-  text-align: center;
-  list-style-position: inside;
+  text-align: left;
+  list-style-position:inside;
+  border:10px;
 }
 
 .container {
@@ -62,15 +63,29 @@ ul {
 }
 
 .column1 {
-  float: left;
-  width: 33.33%;
+  width: 50% float: left;
 }
 
 #column2 {
   background-color: black;
-  width: 33.33%
+  width: 50%
+  border:20px;
 }
 
 .column3 {
-  width: 33.33% float:right;
+  width: 50% float:right;
+}
+h3{
+  color:white;
+  border-left:10px;
+}
+p{
+  color:white;
+}
+
+@media screen and (max-width:768px) {
+  [class="container"] {
+  width:100%;
+  display: block;
+  }
 }
