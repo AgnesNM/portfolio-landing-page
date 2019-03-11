@@ -1,11 +1,11 @@
-#Portfolio Landing Page:Newbie Dev
+## Portfolio Landing Page:Newbie Dev
 ## Welcome to my newbie Dev
 This is my newbie dev portfolio meant to show you some of the projects that I have worked on. If you are a newbie dev and need some code to get you started, please free to use this.
 
-![alt text] (/images.jpg "My Portfolio Screenshot")
+[V1.1](images.v1.0.gif)
 
 #### V1.0 8th February 2019
-![V1.0] (images/v1.0.jpg "My Portfolio Screenshot")
+[V1.0](images.v1.0.gif)
 #### V1.1 11th March 2019
 
 #### By Agnes Mwaniki
@@ -23,5 +23,5 @@ This is my newbie developer portfolio. V1.0 was created after learning HTML and 
 
 Suggestions on how to improve are welcome:smile:
 
-#License
-Detailed License information can be found here: [License information] (License.md) Copyright (c) 2019 Agnes Mwaniki
+## License
+Detailed License information can be found here: [License information](LICENSE.md) Copyright (c) 2019 Agnes Mwaniki
