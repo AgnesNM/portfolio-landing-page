@@ -2,10 +2,10 @@
 ## Welcome to my newbie Dev
 This is my newbie dev portfolio meant to show you some of the projects that I have worked on. If you are a newbie dev and need some code to get you started, please free to use this.
 
-[V1.1](images.v1.0.gif)
+[V1.1]()
 
 #### V1.0 8th February 2019
-[V1.0](images.v1.0.gif)
+[V1.0](https://gph.is/g/EJMJbQ4)
 #### V1.1 11th March 2019
 
 #### By Agnes Mwaniki
