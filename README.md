@@ -5,7 +5,7 @@ This is my newbie dev portfolio meant to show you some of the projects that I ha
 [V1.1]()
 
 #### V1.0 8th February 2019
-[V1.0](images/V1.0.gif)
+![V1.0](/porfolio-landing-page/images/V1.0.gif)
 #### V1.1 11th March 2019
 
 #### By Agnes Mwaniki

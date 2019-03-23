@@ -10,72 +10,178 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <div class="border2">
-    <a href="index.html">About me</a>
-    <a href="projects.html">Projects</a>
-    <a href="contactinfo.html">Contact Info</a>
-  </div>
   <title>My Portfolio</title>
+  <!--Navbar-->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark secondary-color">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">PROJECTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#blog">BLOG</a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">TALKS</a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#dm">Moringa Prep Lightning Talk</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+    </ul>
+    <!-- Links -->
+
+    <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      </div>
+    </form>
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+
 </head>
 
 <body>
-  <h1>Welcome to my Portfolio</h1>
-  <img src="https://media.licdn.com/dms/image/C4D03AQGNEIi_HbE9-A/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=q-EhHgMRJ_VCPtn2BFqNoPXr-mxcZytQNkw_F64mCYI" alt="my photo" style="float:left; margin-right:20px;margin-bottom:5px;border:black:1px;padding:2px;">
 
   <div class="background">
+    <h1 id="about">ABOUT</h1>
+    <div class="container-fluid">
+      <div class="cards">
+      <div class="row">
+          <div class="col-md-3">
+              <span><i class="fas fa-mobile-alt fa-3x"></i></span>
+            <h3>Responsive</h3>
+              <p>I go for an "omni-channel" approach.</p>
+              <p>My layouts look great across a range of devices.</p>
+          </div>
+          <div class="col-md-3">
+              <span><i class="fab fa-google fa-3x"></i></span>
+            <h3>Optimized</h3>
+              <p>I go for optimized.</p>
+              <p>Allowing for fast loading pages.</p>
+          </div>
+          <div class="col-md-3">
+              <span><i class="fas fa-bars fa-3x"></i></span>
+            <h3>Intuitive</h3>
+              <p>I go for easy to use.</p>
+              <p>The user just needs to do, not think</p>
+        </div>
+          <div class="col-md-3">
+              <span><i class="fas fa-fire-alt fa-3x"></i></span>
+            <h3>Dynamic</h3>
+              <p>Pages that are 'alive'</p>
+              <p>Pages that 'pop'</p>
+          </div>
 
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img id="nduta" class="rounded-circle" src="images/nduta.jpeg" alt="">
+            <h5>Agnes Mwaniki(Abby Nduta)</h5>
+            <div class="abby">
+              <p>She is a newbie developer.</p>
+              <p>Her goal is to polish up her skills,</p>
+              <p>then build great real world solutions.</p>
+              <p>She has a strong leaning toward B2B.</p>
+            </div>
 
-    <h2>About me</h2>
-    <p>My name is <em>Agnes Mwaniki.</em> I am a newbie programmer. Why did I become a programmer?</p>
-    <p>I would credit it to my computer studies teacher who opened my eyes to an entire world where data could be stored in zeros and ones.</p>
-    <div id="list">
-      <p>My Journey:</p>
-      <ol>
-        <li>Online Forex Trading</li>
-        <li>Customer Care</li>
-        <li>Education (English and Literature)</li>
-        <li>Digital Marketing</li>
-        <li>Communications</li>
-      </ol>
+        </div>
+        <div class="col-md-6">
+          <div id="highlight"class="streak secondary-color">
+            <h4>MY SKILLS</h4>
+            <div class="flex-center">
+              <ul class="mb-0 list-unstyled">
+                <li>
+                <h5 class="h5-responsive"><i class="fab fa-html5"></i>HTML</h5>
+                <h5 class="h5-responsive"><i class="fab fa-css3-alt"></i>CSS
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                </ul>  </h5>
+                <h5 class="h5-responsive"><i class="fab fa-js-square"></i>JS</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    <h1 id="projects">ONGOING PROJECTS</h1>
+    <div class="row">
+    <div class="col-md-3">
+      <h3>Abbysmerchandise</h3>
+      <img id="abbys" src="images/Abbys2.jpg" alt="">
     </div>
-    <p>As you can see, it has been a long journey of self-discovery,</p>
-    <p>To use my strengths to create solutions to real world problems via tech.</p>
-    <p>My hobbies include music, the arts, dancing, poetry, writing, and of course learning how to code.</p>
-  </div>
-<div class="container">
-<div class="column1">
-<img src="https://images.pexels.com/photos/1005644/pexels-photo-1005644.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" width="300" height="300" alt="cube">
-</div>
-    <div id="column2">
-      <div id="center">
+    <div class="col-md-3">
+      <h3>Lifeline Content Solutions</h3>
+    </div>
+    <div class="col-md-3">
+      <h3>Rentisha</h3>
+    </div>
+    <div class="col-md-3">
+      <h3></h3>
+    </div>
+    </div>
+    <h1 id="blog">BLOG</h1>
+    <div class="row">
+    <div class="col-md-3">
+      <h3>My Developer Journey</h3>
+    </div>
+    <div class="col-md-3">
+      <h3>Why Md Bootstrap is cool</h3>
+    </div>
+    <div class="col-md-3">
+      <h3>On Indentation:my two cents</h3>
+    </div>
+    <div class="col-md-3">
+      <h3>My First Meetup as a Developer</h3>
 
-        <h3>My Projects</h3>
-
-
-    <p>Here are some of the projects that I have worked on this far in my short life as a programmer:</p>
-
-        <ul>
-          <li><a href="https://github.com/AgnesNM/hello-world.git">Hello World</a> a class project, introduction to HTML</li>
-          <li><a href="https://github.com/AgnesNM/my-first-website.git">My First Website</a>a class project, introduction to HTML</li>
-          <li><a href="https://github.com/AgnesNM/fictional-animal-blog.git">Fictional Animal Blog</a> class project,introduction to HTML and CSS</li>
-          <li><a href="https://github.com/AgnesNM/fictional-animal-blog.git">Media Query Practice</a> class project, using media queries</li>
-          <li><a href="https://github.com/AgnesNM/media-query-practice.git">Private Island Resort</a> class project, building a website for a hotel</li>
-        </ul>
-</div>
-</div>
-<div class="column3">
-<img src="https://images.pexels.com/photos/220783/pexels-photo-220783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="300" height="300" alt="maze">
-</div>
-</div>
-
-
-  <div class="border1">
-    <a href="index.html">About me</a>
-    <a href="projects.html">Projects</a>
-    <a href="contactinfo.html">Contact Info</a>
-  </div>
-
-
+    </div>
+    </div>
+    <h1 id="talks">TALKS</h1>
+    <div class="row">
+    <div class="col-md-3">
+      <h3>Moringa Prep Lightning Talk</h3>
+    </div>
+    <div class="col-md-3">
+      <h3></h3>
+    </div>
+    <div class="col-md-3">
+      <h3></h3>
+    </div>
+    <div class="col-md-3">
+      <h3></h3>
+    </div>
+    </div>
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -84,6 +190,90 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
+    </div>
+  </div>
 </body>
-<p>Copyright 2019 Designed by Agnes Mwaniki (Software: HTML and CSS)</p>
+<!-- Footer -->
+<footer class="page-footer font-small secondary-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase"></h5>
+          <p></p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">PORTFOLIO</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#about">ABOUT</a>
+              </li>
+              <li>
+                <a href="#projects">PROJECTS</a>
+              </li>
+              <li>
+                <a href="#talks">TALKS</a>
+              </li>
+              <li>
+                <a href="#blog">BLOG</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Social Media</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Facebook</a>
+              </li>
+              <li>
+                <a href="#!">Twitter</a>
+              </li>
+              <li>
+                <a href="#!">Github</a>
+              </li>
+              <li>
+                <a href="#!">Instagram</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019
+      Copyright: Agnes Mwaniki
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
 </html>
