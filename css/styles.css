@@ -50,6 +50,9 @@ h4{
   text-align: center;
   color:white;
 }
+#talkTitle{
+  color:black;
+}
 @media screen and (max-width:768px) {
   [class="container"] {
   width:100%;
