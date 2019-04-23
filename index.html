@@ -1,344 +1,309 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <title>My Portfolio</title>
-  <!--Navbar-->
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark secondary-color">
-
-  <!-- Navbar brand -->
-  <a class="navbar-brand" href="#"></a>
-
-  <!-- Collapse button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="basicExampleNav">
-
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">HOME
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">ABOUT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">PROJECTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#blog">BLOG</a>
-      </li>
-
-      <!-- Dropdown -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">TALKS</a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#dm">Moringa Prep Lightning Talk</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-
-    </ul>
-    <!-- Links -->
-
-    <form class="form-inline">
-      <div class="md-form my-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      </div>
-    </form>
-  </div>
-  <!-- Collapsible content -->
-
-</nav>
-
+	<!-- Font Awesome -->
+	<link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet"><!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<title>My Portfolio</title><!--Navbar-->
 </head>
-
 <body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark secondary-color">
+		<!-- Navbar brand -->
+		<a class="navbar-brand" href="#"></a> <!-- Collapse button -->
+		 <button aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#basicExampleNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button> <!-- Collapsible content -->
+		<div class="collapse navbar-collapse" id="basicExampleNav">
+			<!-- Links -->
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">ABOUT</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">PROJECTS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#blog">BLOG</a>
+				</li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li><!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink">TALKS</a>
+					<div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
+						<a class="dropdown-item" href="#dm">Moringa Prep Lightning Talk</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul><!-- Links -->
+			<form class="form-inline">
+				<div class="md-form my-0">
+					<input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="text">
+				</div>
+			</form>
+		</div><!-- Collapsible content -->
+	</nav>
+	<div class="background">
+		<h1 id="about">ABOUT</h1>
+    <!-- Card deck -->
+<div class="container-fluid">
 
-  <div class="background">
-    <h1 id="about">ABOUT</h1>
-    <div class="container-fluid">
-      <div class="cards">
-      <div class="row">
-          <div class="col-md-3">
-              <span><i class="fas fa-mobile-alt fa-3x"></i></span>
-            <h3>Responsive</h3>
-              <p>I go for an "omni-channel" approach.</p>
-              <p>My layouts look great across a range of devices.</p>
-          </div>
-          <div class="col-md-3">
-              <span><i class="fab fa-google fa-3x"></i></span>
-            <h3>Optimized</h3>
-              <p>I go for optimized.</p>
-              <p>Allowing for fast loading pages.</p>
-          </div>
-          <div class="col-md-3">
-              <span><i class="fas fa-bars fa-3x"></i></span>
-            <h3>Intuitive</h3>
-              <p>I go for easy to use.</p>
-              <p>The user just needs to do, not think</p>
-        </div>
-          <div class="col-md-3">
-              <span><i class="fas fa-fire-alt fa-3x"></i></span>
-            <h3>Dynamic</h3>
-              <p>Pages that are 'alive'</p>
-              <p>Pages that 'pop'</p>
-          </div>
+<div class="card-deck">
 
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img id="nduta" class="rounded-circle" src="images/nduta.jpeg" alt="">
-            <h5>Agnes Mwaniki(Abby Nduta)</h5>
-            <div class="abby">
-              <p>She is a newbie developer.</p>
-              <p>Her goal is to polish up her skills,</p>
-              <p>then build great real world solutions.</p>
-              <p>She has a strong leaning toward B2B.</p>
-            </div>
+<!-- Card -->
+<div class="card mb-4">
 
-        </div>
-        <div class="col-md-6">
-          <div id="highlight"class="streak secondary-color">
-            <h4>MY SKILLS</h4>
-            <div class="flex-center">
-              <ul class="mb-0 list-unstyled">
-                <li>
-                <h5 class="h5-responsive"><i class="fab fa-html5"></i>HTML</h5>
-                <h5 class="h5-responsive"><i class="fab fa-css3-alt"></i>CSS
-                <ul>
-                  <li>Bootstrap</li>
-                  <li>jQuery</li>
-                </ul>  </h5>
-                <h5 class="h5-responsive"><i class="fab fa-js-square"></i>JS</h5>
-                </li>
+  <!--Card image-->
+  <div class="view overlay">
+    <img alt="Abby Nduta" class="rounded-circle card-img-top center" id="nduta" src="images/Abby.jpg">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!--Card content-->
+  <div class="card-body">
+
+    <!--Title-->
+
+    <h5 class="card-title">Agnes Mwaniki(Abby Nduta)</h5>
+    <!--Text-->
+    <div class="me">
+
+    <p class="card-text">She is a newbie developer.</p>
+    <p class="card-text">Her goal is to polish up her skills,</p>
+    <p class="card-text">then build great real world solutions.</p>
+    <p class="card-text">She has a strong leaning toward B2B.</p>
+    </div>
+  </div>
+</div>
+<!-- Card -->
+
+<!-- Card -->
+<div class="card mb-4">
+    <!--Card content-->
+  <div class="card-body">
+
+    <div class="streak secondary-color" id="highlight">
+      <div class="card-body">
+        <h4 class="card-title">HER SKILLS</h4>
+        <div class="flex-center">
+          <ul class="mb-0 list-unstyled">
+            <li>
+              <h5 class="h5-responsive"><i class="fab fa-html5"></i>HTML</h5>
+              <h5 class="h5-responsive"><i class="fab fa-css3-alt"></i>CSS</h5>
+              <ul>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
               </ul>
-            </div>
-          </div>
+              <h5 class="h5-responsive"><i class="fab fa-js-square"></i>JS</h5>
+            </li>
+          </ul>
         </div>
-
       </div>
       </div>
-    <h1 id="projects">ONGOING PROJECTS</h1>
-    <div class="row">
-    <div class="col-md-3">
-      <h3>Abbysmerchandise</h3>
-      <img id="abbys" src="images/Abbys2.jpg" alt="">
-    </div>
-    <div class="col-md-3">
-      <h3>Lifeline Content Solutions</h3>
-    </div>
-    <div class="col-md-3">
-      <h3>Rentisha</h3>
-    </div>
-    <div class="col-md-3">
-      <h3></h3>
-    </div>
-    </div>
-    <h1 id="blog">BLOG</h1>
-    <div class="row">
-    <div class="col-md-3">
-      <h3>My Developer Journey</h3>
-    </div>
-    <div class="col-md-3">
-      <h3>Why Md Bootstrap is cool</h3>
-    </div>
-    <div class="col-md-3">
-      <h3>On Indentation:my two cents</h3>
-    </div>
-    <div class="col-md-3">
-      <h3>My First Meetup as a Developer</h3>
-
-    </div>
-    </div>
-    <h1 id="talks">TALKS</h1>
-    <div class="row">
-      <!-- Card deck -->
-    <div class="card-deck">
-    <!-- Card -->
-    <div class="card mb-4">
-      <!--Card image-->
-      <div class="view overlay">
-        <img class="card-img-top" src="images/Prep.png" alt="Card image cap">
-        <a href="https://bit.ly/2I3qqPZ">
-           <div class="mask rgba-white-slight"></div>
-        </a>
-      </div>
-      <!--Card content-->
-      <div class="card-body">
-        <!--Title-->
-
-      <a href="https://bit.ly/2I3qqPZ"><h4 id="talkTitle" class="card-title">Moringa Prep Lightning Talk</h4></a>
-        <!--Text-->
-        <p class="card-text">At Moringa, we had lightning talks where we would talk about our other interests, apart from code.</p>
-        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      </div>
-    </div>
-    <!-- Card -->
-
-    <!-- Card -->
-    <div class="card mb-4">
-
-      <!--Card image-->
-      <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
-        <a href="#!">
-          <div class="mask rgba-white-slight"></div>
-        </a>
-      </div>
-
-      <!--Card content-->
-      <div class="card-body">
-
-        <!--Title-->
-        <h4 class="card-title">Card title</h4>
-        <!--Text-->
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-
-      </div>
-
-    </div>
-    <!-- Card -->
-
-    <!-- Card -->
-    <div class="card mb-4">
-
-      <!--Card image-->
-      <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
-        <a href="#!">
-          <div class="mask rgba-white-slight"></div>
-        </a>
-      </div>
-
-      <!--Card content-->
-      <div class="card-body">
-
-        <!--Title-->
-        <h4 class="card-title">Card title</h4>
-        <!--Text-->
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-
-      </div>
-
-    </div>
-    <!-- Card -->
-
+      <p class="card-text">She undertook the Moringa school prep class and continue to practice code.</p>
+      <p class="card-text">That is how she acquired these skills.</p>
   </div>
-  <!-- Card deck -->  
-    </div>
-  <!-- JQuery -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js"></script>
-    </div>
-  </div>
+</div>
+</div>
+</div>
+<!-- Card deck -->
+			<h1>VALUE PROPOSITION</h1>
+      <div class="container-fluid">
+			  <div class="row">
+				  <div class="col-md-3">
+					  <span><i class="fas fa-mobile-alt fa-3x"></i></span>
+					  <h3>Responsive</h3>
+					    <p>I go for an "omni-channel" approach.</p>
+					    <p>My layouts look great across a range of devices.</p>
+				  </div>
+				  <div class="col-md-3">
+					  <span><i class="fab fa-google fa-3x"></i></span>
+					  <h3>Optimized</h3>
+					    <p>I go for optimized.</p>
+					    <p>Allowing for fast loading pages.</p>
+				  </div>
+				  <div class="col-md-3">
+					  <span><i class="fas fa-bars fa-3x"></i></span>
+					  <h3>Intuitive</h3>
+					    <p>I go for easy to use.</p>
+					    <p>The user just needs to do, not think</p>
+				  </div>
+				  <div class="col-md-3">
+					  <span><i class="fas fa-fire-alt fa-3x"></i></span>
+					  <h3>Dynamic</h3>
+					    <p>Pages that are 'alive'</p>
+					    <p>Pages that 'pop'</p>
+				  </div>
+			  </div>
+      </div>
+		<h1 id="projects">ONGOING PROJECTS</h1>
+		<div class="row">
+			<div class="col-md-3">
+				<h3>Abbysmerchandise</h3>
+        <img alt="Abbysmerchandise" id="abbys" src="images/Abbys2.jpg">
+				<p>This is a passion project for a small e-commerce store that sells business card holders and wallets.</p>
+				<p>It is entirely powered by Javascript, jQuery, HTML and CSS.</p>
+        <a href="https://agnesnm.github.io/Abbysmerchandise/"><button name="button" type="button">LAUNCH PROJECT</button></a>
+			</div>
+			<div class="col-md-3">
+				<h3>Lifeline Content Solutions</h3>
+			</div>
+			<div class="col-md-3">
+				<h3>Rentisha</h3>
+			</div>
+			<div class="col-md-3">
+				<h3>CleanTweak</h3>
+        <img src="images/CleanTweak.png" alt="CleanTweak" id="cleanTweak">
+        <p>This is a digital marketing tool that collates all of a brand's published content</p>
+        <p>and puts it together in one place, allowing marketing teams to repackage it as they wish.</p>
+        <a href="#"> <button type="button" name="button">LAUNCH PROJECT</button> </a>
+			</div>
+		</div>
+		<h1 id="blog">BLOG</h1>
+		<div class="row">
+			<div class="col-md-3">
+				<h3>On being a newbie JS developer</h3><img alt="Javascript" id="js" src="images/Javascript.png">
+				<p>It is one thing to know the syntax of something, for instance a function, but do you really understand? I have learned that actually breaking something down and try to understand it your own way helps</p><a href="https://medium.com/@AbbyNdutah/on-being-a-newbie-js-developer-58638cce9d88?source=friends_link&sk=063c37f1be458636a5a41521fa29c654"><button name="button" type="button">READ MORE</button></a>
+			</div>
+			<div class="col-md-3">
+				<h3>Why Md Bootstrap is cool</h3>
+			</div>
+			<div class="col-md-3">
+				<h3>On Indentation:my two cents</h3>
+			</div>
+			<div class="col-md-3">
+				<h3>My First Meetup as a Developer</h3>
+			</div>
+		</div>
+		<h1 id="talks">TALKS</h1>
+		<div class="row">
+			<!-- Card deck -->
+			<div class="card-deck">
+				<!-- Card -->
+				<div class="card mb-4">
+					<!--Card image-->
+					<div class="view overlay">
+						<img alt="Card image cap" class="card-img-top" id="dm" src="images/Prep.png"> <a href="https://bit.ly/2I3qqPZ">
+						<div class="mask rgba-white-slight"></div></a>
+					</div><!--Card content-->
+					<div class="card-body">
+						<!--Title-->
+						<a href="https://bit.ly/2I3qqPZ">
+						<h4 class="card-title" id="talkTitle">Moringa Prep Lightning Talk</h4></a> <!--Text-->
+						<p class="card-text">At Moringa, we had lightning talks where we would talk about our other interests, apart from code.</p><a href="https://bit.ly/2I3qqPZ"><button id="ltalk" name="button" type="button">See Presentation</button></a> <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+					</div>
+				</div><!-- Card -->
+				<!-- Card -->
+				<div class="card mb-4">
+					<!--Card image-->
+					<div class="view overlay">
+						<img alt="Card image cap" class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg">
+						 <a href="#!">
+						<div class="mask rgba-white-slight"></div></a>
+					</div><!--Card content-->
+					<div class="card-body">
+						<!--Title-->
+						<h4 class="card-title">Card title</h4><!--Text-->
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+						<button class="btn btn-light-blue btn-md" type="button">Read more</button>
+					</div>
+				</div><!-- Card -->
+				<!-- Card -->
+				<div class="card mb-4">
+					<!--Card image-->
+					<div class="view overlay">
+						<img alt="Card image cap" class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg"> <a href="#!">
+						<div class="mask rgba-white-slight"></div></a>
+					</div><!--Card content-->
+					<div class="card-body">
+						<!--Title-->
+						<h4 class="card-title">Card title</h4><!--Text-->
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+						<button class="btn btn-light-blue btn-md" type="button">Read more</button>
+					</div>
+				</div><!-- Card -->
+			</div><!-- Card deck -->
+		</div><!-- JQuery -->
+
+      <h1 id="contact">CONTACT</h1>
+      <div id="contactinfo">
+        <h6>Any inquiries? Want a project built?</h6>
+          <p>Reach me on <em>+254-712-227-589</em></p>
+      </div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript">
+		</script> <!-- Bootstrap tooltips -->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/js/mdb.min.js" type="text/javascript">
+		</script>
+	<!-- Footer -->
+	<footer class="page-footer font-small secondary-color-dark pt-4">
+		<!-- Footer Links -->
+		<div class="container-fluid text-center text-md-left">
+			<!-- Grid row -->
+			<div class="row">
+				<!-- Grid column -->
+				<div class="col-md-6 mt-md-0 mt-3">
+					<!-- Content -->
+					<h5 class="text-uppercase"></h5>
+					<p></p>
+				</div><!-- Grid column -->
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<!-- Grid column -->
+				<div class="col-md-3 mb-md-0 mb-3">
+					<!-- Links -->
+					<h5 class="text-uppercase">PORTFOLIO</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#about">ABOUT</a>
+						</li>
+						<li>
+							<a href="#projects">PROJECTS</a>
+						</li>
+						<li>
+							<a href="#talks">TALKS</a>
+						</li>
+						<li>
+							<a href="#blog">BLOG</a>
+						</li>
+					</ul>
+				</div><!-- Grid column -->
+				<!-- Grid column -->
+				<div class="col-md-3 mb-md-0 mb-3">
+					<!-- Links -->
+					<h5 class="text-uppercase">Social Media</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Facebook</a>
+						</li>
+						<li>
+							<a href="#!">Twitter</a>
+						</li>
+						<li>
+							<a href="#!">Github</a>
+						</li>
+						<li>
+							<a href="#!">Instagram</a>
+						</li>
+					</ul>
+				</div><!-- Grid column -->
+			</div><!-- Grid row -->
+		</div><!-- Footer Links -->
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">
+			© 2019 Copyright: Agnes Mwaniki
+		</div><!-- Copyright -->
+	</footer><!-- Footer -->
 </body>
-<!-- Footer -->
-<footer class="page-footer font-small secondary-color-dark pt-4">
-
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
-
-      <!-- Grid row -->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-
-          <!-- Content -->
-          <h5 class="text-uppercase"></h5>
-          <p></p>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">PORTFOLIO</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#about">ABOUT</a>
-              </li>
-              <li>
-                <a href="#projects">PROJECTS</a>
-              </li>
-              <li>
-                <a href="#talks">TALKS</a>
-              </li>
-              <li>
-                <a href="#blog">BLOG</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">Social Media</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Facebook</a>
-              </li>
-              <li>
-                <a href="#!">Twitter</a>
-              </li>
-              <li>
-                <a href="#!">Github</a>
-              </li>
-              <li>
-                <a href="#!">Instagram</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019
-      Copyright: Agnes Mwaniki
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
 </html>

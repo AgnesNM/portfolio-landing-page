@@ -9,7 +9,7 @@ body {
 
 h1 {
   color:purple;
-  margin-left:1%;
+  text-align: center;
 }
 
 h2 {
@@ -23,6 +23,13 @@ p{
   color:black;
 }
 #abbys{
+  height:auto;
+  width:100%;
+}
+.me{
+  text-align: center;
+}
+#cleanTweak{
   height:auto;
   width:100%;
 }
@@ -52,6 +59,27 @@ h4{
 }
 #talkTitle{
   color:black;
+}
+button{
+  color:white;
+  background-color: plum;
+}
+.row{
+  margin:3%;
+}
+#js{
+  width:300px;
+  height:300px;
+}
+col-md-3{
+  margin:3%;
+}
+#nduta{
+  height:10em;
+  width:auto;
+}
+#contactinfo{
+  text-align: center;
 }
 @media screen and (max-width:768px) {
   [class="container"] {
