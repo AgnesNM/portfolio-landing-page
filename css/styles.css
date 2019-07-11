@@ -22,14 +22,11 @@ a {
 p{
   color:black;
 }
-#abbys{
-  height:auto;
-  width:100%;
-}
+
 .me{
   text-align: center;
 }
-#cleanTweak{
+.projectImages{
   height:auto;
   width:100%;
 }
@@ -57,7 +54,7 @@ h4{
   text-align: center;
   color:white;
 }
-#talkTitle{
+.card-title{
   color:black;
 }
 button{
