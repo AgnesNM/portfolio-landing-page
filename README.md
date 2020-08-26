@@ -1,6 +1,6 @@
 ## Portfolio Landing Page:Newbie Dev
-## Welcome to my newbie Dev
-This is my newbie dev portfolio meant to show you some of the projects that I have worked on. If you are a newbie dev and need some code to get you started, please free to use this.
+## Welcome to my Dev Portfolio
+This is my dev portfolio meant to show you some of the projects that I have worked on this far. I
 
 [V1.1]()
 
@@ -14,9 +14,7 @@ This is my newbie dev portfolio meant to show you some of the projects that I ha
 This is my newbie developer portfolio. V1.0 was created after learning HTML and CSS for 4 days. Version 1.1 was created after learning HTML,CSS, JQuery, JavaScript, and Bootstrap, 4 weeks later.
 
 ## Set Up/Installation Requirements
-* Linux OS
-* A text editor (this was created via Atom)
-* The Ubuntu Terminal
+* A text editor - VS Code
 * CDN links - mdbootstrap 4.73, jQuery 3.3.1, and Javascript 4.3.1
 
 ## Contribution
