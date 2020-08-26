@@ -1,6 +1,6 @@
 ## Portfolio Landing Page:Newbie Dev
 ## Welcome to my Dev Portfolio
-This is my dev portfolio meant to show you some of the projects that I have worked on this far. I
+This is my dev portfolio meant to show you some of the projects that I have worked on this far. 
 
 [V1.1]()
 
